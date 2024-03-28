@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <link rel="stylesheet" href="project.css">
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#connect">Connect</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <div class="content">
+                <div class="img">
+                    <img src="img 1.jpeg">
+                </div>
+                <div class="text">
+                    <h1 class="line1"><span id="hey1"> Hey</span>, I am <span id="yash">Yash</span></h1>
+                    <h2 class="line2">Frontend Developer</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="secc">
+            <section class="secc">
+
+                <h1 class="lala">
+                    PROJECTS
+                </h1>
+                <div class="margin">
+            <div class="imgcontainer">
+                <div class="project_container">
+                    <div class="projectimg">
+                        <img src="img2.png" alt="image 1">
+                        <h3>Title 1</h3>
+                    </div>
+                </div>
+        
+                <div class="project_container">
+                    <div class="projectimg">
+                        <img src="img3.jpeg" alt="image 2">
+                        <h3>Title 1</h3>
+                    </div>
+                </div>
+        
+                <div class="project_container">
+                    <div class="projectimg">
+                        <img src="img3.jpeg" alt="image 3">
+                        <h3>Title 2</h3>
+                    </div>
+                </div>
+
+                <div class="project_container">
+                    <div class="projectimg">
+                        <img src="img4.jpeg" alt="image 4">
+                        <h3>Title 3</h3>
+                    </div>
+                </div>
+            </div>
+                </div>
+        </section>
+        </section>
+
+        <section id="certificates" class="certificate-section">
+                <h2 class="animate-character">CERTIFICATE</h2>
+                <div class="certificate-container">
+                    <a href="#" class="certificate-link">
+                        <img src="certificate1.jpg" alt="Certificate 1">
+                        <span>Certificate 1</span>
+                    </a>
+                    <a href="#" class="certificate-link">
+                        <img src="certificate2.jpg" alt="Certificate 2">
+                        <span>Certificate 2</span>
+                    </a>
+
+                </div>
+            </section>
+    
+        </section>
+
+        <section id="connect">
+                <link rel="stylesheet" href="style.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+            
+              <div class="icons">
+                <a href="#" class="fb"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="insta"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="git"><i class="fab fa-github"></i></a>
+
+              </div>
+            
+                       <!-- Connect section content -->
+        </section>
+    </main>
+
+    <script>
+        // Smooth scrolling functionality
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    <main>
+
+
+
+
+
+
+</body>
+
+</html>
